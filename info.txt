@@ -1,0 +1,21 @@
+library - one thing particular
+GSAP, LENIS, ReactJS
+
+Framework- evrything prebuild and support 
+NextJS, Angular
+
+
+two types of export- default and 
+import used to import things from one file to another
+
+Real DOM:
+for exmaple resetting evrything like just to chaneg h1 (refreshing evrything )
+Virtual DOM:
+Created a virtual DOM and compare with real DOM and make changes 
+
+
+JSX - JavaScript XML
+ HTML + JavaScript
+    var h1 = <h1>Hello</h1>
+
+    </abc> - function is written like this 
