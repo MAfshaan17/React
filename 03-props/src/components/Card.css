@@ -1,0 +1,32 @@
+.card {
+  width: 400px;
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card h1 {
+  font-size: 28px;
+}
+
+.card img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
