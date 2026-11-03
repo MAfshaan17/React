@@ -1,5 +1,6 @@
 import React from 'react'
-import {Bookmark, Divide} from 'lucide-react'
+import {Bookmark} from 'lucide-react'
+import './App.css'
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <div className='card'>
        <div className='top'>
         <img src="https://tse1.mm.bing.net/th/id/OIP.dLl9UyA6y1GTydI-npnoygHaHv?r=0&pid=Api&h=220&P=0" alt="" />
-        <button>Save <Bookmark /></button>
+        <button>Save <Bookmark size={12} /></button>
        </div>
        
       
@@ -28,7 +29,7 @@ const App = () => {
           <div>
             <button>Apply Now</button>
           </div>
-          
+
         </div>
       </div>
     </div>

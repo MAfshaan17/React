@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html, body, #root {
   height: 100%;
   width: 100%;
 }
@@ -14,21 +14,117 @@ html, body {
 .parent {
   height: 100vh;
   width: 100%;
-  background-color: black;
-  padding: 30px;
+  background-color: #111;
   display: flex;
-
+  align-items: left;
+  justify-content: left;
+  
 }
 
 .card {
-  width: 300px;
-  height: 400px;
-  background-color: white;
+  height: 300px;
+  width: 200px;
+  background-color: #fff;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
+  padding: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* TOP SECTION */
+
+.top {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.top img {
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 5px;
+  font-size: 8px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* CENTER SECTION */
+
+.center h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.center h3 span {
+  font-size: 7px;
+  color: #999;
+  font-weight: 400;
+  margin-left: 3px;
+}
+
+.center h2 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.center div {
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.center div h4,
+.center div h5 {
+  font-size: 8px;
+  font-weight: 500;
+  background-color: #eee;
+  padding: 4px 5px;
+  border-radius: 2px;
+}
+
+/* BOTTOM SECTION */
+
+.bottom {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom h3 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.bottom p {
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.bottom button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+.bottom button:hover {
+  background-color: #333;
 }
