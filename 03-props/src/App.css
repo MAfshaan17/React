@@ -182,15 +182,23 @@
     border-right-color: var(--border);
   }
 }
-
+bodY{ 
+  background-color: white;
+}
 .parent{
-  padding: 200px;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 10px;
+  border: 1px solid orange;
+  text-align: center;
+  background-color:aqua;
+  width: 200px;
 }
 
 .card{
   width: 300px;
+  border: 1px solid orangered;
   height: 200px;
   background-color: #f1f1f1;
   margin: 10px;
@@ -198,4 +206,26 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  border-radius: 10px;
+}
+
+.card image{
+  width: 50px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.card p{
+  margin: 20px 0;
+}
+
+.card button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
 }
