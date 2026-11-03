@@ -116,3 +116,12 @@ code {
   border-radius: 8px;
   margin: 20px;
 }
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--code-bg);
+  border-bottom: 1px solid var(--border);
+}
