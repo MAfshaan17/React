@@ -1,13 +1,13 @@
 import React from 'react'
 import './Card.css'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="card">
-      <h1>React Fundamentals</h1>
-
+      <h1>{props.user}</h1>
+      <h2>{props.age}</h2>
       <img
-        src="https://tse1.mm.bing.net/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?r=0&pid=Api&h=220&P=0"
+        src={props.img}
         alt="React Logo"
       />
 

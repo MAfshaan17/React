@@ -19,3 +19,10 @@ JSX - JavaScript XML
     var h1 = <h1>Hello</h1>
 
     </abc> - function is written like this 
+
+
+props:
+  sending dat from one file to another 
+  app -> card -> image 
+  this is possible but low to up is mot possible
+  (data goes from up to down and doesnt go ulta)
