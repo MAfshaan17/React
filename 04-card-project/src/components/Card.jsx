@@ -2,8 +2,9 @@
 import { Bookmark } from 'lucide-react'
 import '../App.css'
 
-const Card = () => {
-  return (
+const Card = (props) => {
+     console.log(props.company);
+    return (
     <div className="card">
 
       <div className="top">
@@ -15,18 +16,18 @@ const Card = () => {
       </div>
 
       <div className="center">
-        <h3>Amazon <span>5 days ago</span></h3>
-        <h2>Senior UI/UX Designer</h2>
+        <h3>{props.company} <span>[{props.datePosted}]</span></h3>
+        <h2>{props.post}</h2>
         <div>
-          <h4>Part time</h4>
-          <h5>Senior Level</h5>
+          <h4>{props.tag1}</h4>
+          <h5>{props.tag2}</h5>
         </div>
       </div>
 
       <div className="bottom">
         <div>
-          <h3>$120/hr</h3>
-          <p>Mumbai, India</p>
+          <h3>${props.pay}/hr</h3>
+          <p>{props.location}   </p>
         </div>
         <div>
           <button>Apply Now</button>
