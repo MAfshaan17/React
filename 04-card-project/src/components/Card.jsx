@@ -3,14 +3,14 @@ import { Bookmark } from 'lucide-react'
 import '../App.css'
 
 const Card = (props) => {
-     console.log(props.company);
+     
     return (
     <div className="card">
 
       <div className="top">
         <img
-          src="https://tse1.mm.bing.net/th/id/OIP.dLl9UyA6y1GTydI-npnoygHaHv?r=0&pid=Api&h=220&P=0"
-          alt="Amazon"
+          src={props.brandLogo}
+          alt={props.company}
         />
         <button>Save <Bookmark size={12} /></button>
       </div>
