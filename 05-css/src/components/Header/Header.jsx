@@ -1,13 +1,12 @@
+import styles from './Header.module.css';
 
-import './Header.module.css'
 const Header = () => {
   return (
-    <div className={StyleSheet.Header}>
+    <div className={styles.Header}>
       <h1>My App</h1>
-      <button className = {StyleSheet.btn}>login</button>
+      <button className={styles.btn}>login</button>
     </div>
+  );
+};
 
-  )
-}
-
-export default Header
+export default Header;
