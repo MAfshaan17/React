@@ -4,7 +4,7 @@ import LeftContent from './LeftContent'
 
 const Page1Content = () => {
   return (
-    <div className='py-50 px-18 bg-amber-900 flex items-center gap-2.5'>
+    <div className='py-60 px-10 bg-amber-900 flex items-center gap-10'>
       <LeftContent />
       <RightContent />
     </div>
